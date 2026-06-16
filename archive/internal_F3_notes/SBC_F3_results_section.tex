@@ -1,0 +1,42 @@
+
+\section{Phenomenological Validation of the SBC/F3 Cosmological Sector}
+
+The SBC/F3 implementation was tested as a weak infrared deformation of the standard
+\(\Lambda\)CDM cosmological baseline. A grid-based exploration followed by MCMC
+sampling identified a stable IR-safe region characterized by
+\[
+\epsilon \simeq 0.060,\qquad k_0 \simeq 0.015,\qquad n \simeq 1.
+\]
+
+This region produces controlled low-multipole deviations while preserving the
+high-\(\ell\) acoustic structure of the CMB. Direct comparisons against lensed
+\(\Lambda\)CDM spectra show residuals of order \(10^{-3}\) in the acoustic and
+damping-tail regimes for TT, EE, and TE, with the largest deviations concentrated
+at low multipoles.
+
+An effective Planck-lite validation yielded
+\[
+\chi^2_{\rm eff} \simeq 2.13
+\]
+over nine spectral blocks, indicating that the SBC/F3 deformation introduces only
+a small effective spectral penalty relative to the reference \(\Lambda\)CDM
+structure.
+
+The BAO pipeline was also implemented using DESI DR2 Gaussian BAO data, including
+\(D_V/r_d\), \(D_M/r_d\), and \(D_H/r_d\) observables with covariance handling.
+At the current stage, BAO acts primarily as a consistency constraint because the
+active SBC/F3 branch behaves mainly as an IR-spectral and perturbative deformation
+rather than a strong background-level modification.
+
+Growth-sector tests using \(f\sigma_8(z)\) show that the preferred SBC/F3 region
+preserves late-time structure growth, with only minimal degradation relative to
+\(\Lambda\)CDM:
+\[
+\Delta \chi^2_{f\sigma_8} \sim 0.02-0.03.
+\]
+
+Together, these results indicate that SBC/F3 behaves phenomenologically as a weak,
+scale-dependent, IR-safe deformation of \(\Lambda\)CDM rather than a large ultraviolet
+modification of General Relativity. The model is not yet observationally preferred
+over \(\Lambda\)CDM, but it demonstrates a stable and reproducible region worthy of
+full likelihood testing with Planck, BAO, Pantheon+, lensing, and growth data.

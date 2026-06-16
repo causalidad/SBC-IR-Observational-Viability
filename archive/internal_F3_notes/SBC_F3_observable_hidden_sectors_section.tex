@@ -1,0 +1,108 @@
+\subsection{Observable and Hidden Causal Sectors}
+
+The SBC framework assumes that the total causal structure can be decomposed into an observable sector and a hidden sector,
+\begin{equation}
+\Psi_{\rm tot}
+=
+\Psi_{\rm obs}
++
+\Psi_{\rm hid}.
+\end{equation}
+
+The observable component is obtained through a projection operator,
+\begin{equation}
+\Psi_{\rm obs}
+=
+\mathcal P \Psi_{\rm tot},
+\end{equation}
+while the hidden component is
+\begin{equation}
+\Psi_{\rm hid}
+=
+(1-\mathcal P)\Psi_{\rm tot}.
+\end{equation}
+
+The projection operator satisfies
+\begin{equation}
+\mathcal P^2=\mathcal P,
+\end{equation}
+which defines a consistent separation between accessible and inaccessible causal sectors.
+
+The total state is assumed to evolve according to
+\begin{equation}
+\frac{d\Psi_{\rm tot}}{dt}
+=
+\mathcal L \Psi_{\rm tot},
+\end{equation}
+where \(\mathcal L\) is the generator of the underlying causal evolution.
+
+Projecting the total dynamics onto the observable and hidden sectors yields
+\begin{equation}
+\frac{d\Psi_{\rm obs}}{dt}
+=
+\mathcal L_{oo}\Psi_{\rm obs}
++
+\mathcal L_{oh}\Psi_{\rm hid},
+\end{equation}
+and
+\begin{equation}
+\frac{d\Psi_{\rm hid}}{dt}
+=
+\mathcal L_{ho}\Psi_{\rm obs}
++
+\mathcal L_{hh}\Psi_{\rm hid}.
+\end{equation}
+
+Here,
+\begin{equation}
+\mathcal L_{oo}
+=
+\mathcal P\mathcal L\mathcal P,
+\end{equation}
+\begin{equation}
+\mathcal L_{oh}
+=
+\mathcal P\mathcal L(1-\mathcal P),
+\end{equation}
+\begin{equation}
+\mathcal L_{ho}
+=
+(1-\mathcal P)\mathcal L\mathcal P,
+\end{equation}
+and
+\begin{equation}
+\mathcal L_{hh}
+=
+(1-\mathcal P)\mathcal L(1-\mathcal P).
+\end{equation}
+
+The hidden sector acts as a reservoir of causal information that is not directly resolved within the observable window.
+
+Solving formally for \(\Psi_{\rm hid}\) and substituting it back into the observable-sector equation generates an effective nonlocal equation,
+\begin{equation}
+\frac{d\Psi_{\rm obs}}{dt}
+=
+\mathcal L_{\rm eff}\Psi_{\rm obs}
++
+\int_{-\infty}^{t}
+K(t,t')
+\Psi_{\rm obs}(t')
+\,dt'.
+\end{equation}
+
+The memory kernel \(K(t,t')\) is therefore not introduced as an independent postulate. It emerges from eliminating the hidden causal sector.
+
+This gives the fundamental SBC hierarchy:
+\begin{equation}
+{\rm total\ causal\ structure}
+\rightarrow
+{\rm causal\ projection}
+\rightarrow
+{\rm hidden\ sector}
+\rightarrow
+{\rm memory\ kernel}
+\rightarrow
+{\rm infrared\ phenomenology}.
+\end{equation}
+
+The SBC/F3 sector can therefore be interpreted as the cosmological infrared limit of an observable-hidden causal decomposition.

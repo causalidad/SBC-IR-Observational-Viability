@@ -1,0 +1,76 @@
+\subsection{Kernel Selection by Stability and Causal Normalization}
+
+The emergence of an exponentially screened memory kernel can be motivated from minimal physical requirements.
+
+Let the memory kernel depend on the causal separation
+\begin{equation}
+\Delta t = t-t',
+\qquad
+\Delta t \geq 0 .
+\end{equation}
+
+Causality requires
+\begin{equation}
+K(\Delta t)=0
+\qquad
+{\rm for}
+\qquad
+\Delta t<0 .
+\end{equation}
+
+Finite memory requires the normalization condition
+\begin{equation}
+\int_0^\infty K(\Delta t)\,d\Delta t < \infty .
+\end{equation}
+
+Stability requires that the influence of remote past states decreases monotonically,
+\begin{equation}
+\frac{dK}{d\Delta t}<0 .
+\end{equation}
+
+The simplest first-order stable decay law satisfying these conditions is
+\begin{equation}
+\frac{dK}{d\Delta t}
+=
+-\lambda K,
+\qquad
+\lambda>0 .
+\end{equation}
+
+Its solution is
+\begin{equation}
+K(\Delta t)
+=
+K_0 e^{-\lambda \Delta t}.
+\end{equation}
+
+Including causal support explicitly gives
+\begin{equation}
+K(t,t')
+=
+K_0 e^{-\lambda(t-t')}
+\Theta(t-t') .
+\end{equation}
+
+Thus, the exponential kernel is not an arbitrary choice. It is the minimal causal, normalizable and stable memory response.
+
+When mapped to cosmological redshift or causal-depth variables, this kernel generates the leading SBC/F3 infrared correction
+\begin{equation}
+F_{\rm SBC}(z)
+\simeq
+-\epsilon e^{-k_0(1+z)} .
+\end{equation}
+
+This corresponds to the phenomenological SBC/F3 form
+\begin{equation}
+F_{\rm SBC}(z)
+=
+-\epsilon
+\exp\left[-(k_0(1+z))^n\right]
+\end{equation}
+with
+\begin{equation}
+n\simeq 1 .
+\end{equation}
+
+Therefore, the observational preference for \(n\simeq1\) can be interpreted as the signature of the minimal stable causal-memory regime.

@@ -1,0 +1,170 @@
+\section{Fundamental Axioms of Stochastic Bidirectional Causality}
+
+\subsection{Axiom I: Total Causal Structure}
+
+Physical reality is represented by a total causal state,
+\begin{equation}
+\Psi_{\rm tot}(t),
+\end{equation}
+which contains both observable and non-observable causal degrees of freedom.
+
+The observable universe is not assumed to exhaust the total causal structure.
+
+\subsection{Axiom II: Finite Causal Accessibility}
+
+Every physical state has access only to a finite causal sector of the total structure.
+
+This finite accessibility is represented by a projection operator,
+\begin{equation}
+\mathcal P,
+\end{equation}
+such that
+\begin{equation}
+\Psi_{\rm obs}(t)
+=
+\mathcal P \Psi_{\rm tot}(t).
+\end{equation}
+
+The complementary sector is
+\begin{equation}
+\Psi_{\rm hid}(t)
+=
+(1-\mathcal P)\Psi_{\rm tot}(t).
+\end{equation}
+
+\subsection{Axiom III: Objective Observational Window}
+
+The projection operator \(\mathcal P\) is not a subjective act of measurement.
+
+It represents an objective causal window intrinsic to the structure of reality.
+
+Thus,
+\begin{equation}
+\mathcal P^2=\mathcal P,
+\end{equation}
+and the decomposition
+\begin{equation}
+\Psi_{\rm tot}
+=
+\Psi_{\rm obs}
++
+\Psi_{\rm hid}
+\end{equation}
+is physically meaningful.
+
+\subsection{Axiom IV: Bidirectional Causal Coupling}
+
+The observable and hidden sectors are not dynamically independent.
+
+Their evolution is governed by coupled operators:
+\begin{equation}
+\frac{d\Psi_{\rm obs}}{dt}
+=
+\mathcal L_{oo}\Psi_{\rm obs}
++
+\mathcal L_{oh}\Psi_{\rm hid},
+\end{equation}
+\begin{equation}
+\frac{d\Psi_{\rm hid}}{dt}
+=
+\mathcal L_{ho}\Psi_{\rm obs}
++
+\mathcal L_{hh}\Psi_{\rm hid}.
+\end{equation}
+
+The bidirectional structure is encoded in the nonzero couplings
+\begin{equation}
+\mathcal L_{oh}\neq 0,
+\qquad
+\mathcal L_{ho}\neq 0.
+\end{equation}
+
+\subsection{Axiom V: Emergent Memory}
+
+Eliminating the hidden sector generates a nonlocal effective equation for the observable sector:
+\begin{equation}
+\frac{d\Psi_{\rm obs}}{dt}
+=
+\mathcal L_{\rm eff}\Psi_{\rm obs}
++
+\int_{-\infty}^{t}
+K(t,t')
+\Psi_{\rm obs}(t')
+\,dt'.
+\end{equation}
+
+Thus, memory is not fundamental.
+
+It emerges from finite causal accessibility and hidden-sector elimination.
+
+\subsection{Axiom VI: Stable Causal Screening}
+
+The memory kernel must satisfy causality, finite normalization and stability:
+\begin{equation}
+K(t,t')=0
+\qquad
+{\rm for}
+\qquad
+t'>t,
+\end{equation}
+\begin{equation}
+\int_{-\infty}^{t}
+|K(t,t')|\,dt'
+<
+\infty,
+\end{equation}
+and
+\begin{equation}
+K(t,t')\rightarrow 0
+\qquad
+{\rm as}
+\qquad
+t-t'\rightarrow \infty.
+\end{equation}
+
+The minimal kernel satisfying these conditions is
+\begin{equation}
+K(t,t')
+=
+K_0 e^{-\lambda(t-t')}
+\Theta(t-t').
+\end{equation}
+
+\subsection{Axiom VII: Infrared Effective Limit}
+
+In the cosmological infrared limit, the memory response induces an effective perturbative deformation:
+\begin{equation}
+F_{\rm SBC}(z)
+=
+-\epsilon
+\exp\left[-(k_0(1+z))^n\right].
+\end{equation}
+
+The minimal stable memory regime corresponds to
+\begin{equation}
+n\simeq 1.
+\end{equation}
+
+\subsection{Observational Constraint}
+
+The empirical SBC/F3 sector selects
+\begin{equation}
+\epsilon\simeq 0.06,
+\qquad
+k_0\simeq 0.015-0.022,
+\qquad
+n\simeq 1,
+\end{equation}
+while preserving
+\begin{equation}
+H_{\rm SBC}(z)
+\simeq
+H_{\Lambda{\rm CDM}}(z).
+\end{equation}
+
+Thus, the observationally viable limit of SBC is
+\begin{equation}
+\Lambda{\rm CDM\ background}
++
+{\rm SBC/F3\ perturbative\ infrared\ sector}.
+\end{equation}

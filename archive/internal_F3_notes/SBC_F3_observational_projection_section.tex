@@ -1,0 +1,68 @@
+\subsection{Finite Observational Projection and Emergent Memory}
+
+A central premise of the SBC framework is that the observable universe does not necessarily coincide with the total causal structure of physical reality.
+
+Let \(\Psi_{\rm tot}(t)\) denote the state of the full causal structure, and let the observable cosmological state be defined as a projection,
+\begin{equation}
+\Psi_{\rm obs}(t)
+=
+\mathcal{P}\Psi_{\rm tot}(t),
+\end{equation}
+where \(\mathcal{P}\) is an observational projection operator associated with a finite observational window.
+
+The complementary, unobserved sector is
+\begin{equation}
+\Psi_{\rm hid}(t)
+=
+(1-\mathcal{P})\Psi_{\rm tot}(t).
+\end{equation}
+
+If the total state evolves locally in the full causal space,
+\begin{equation}
+\frac{d\Psi_{\rm tot}}{dt}
+=
+\mathcal{L}\Psi_{\rm tot},
+\end{equation}
+then projection onto the observable sector yields an effective equation of the form
+\begin{equation}
+\frac{d\Psi_{\rm obs}}{dt}
+=
+\mathcal{P}\mathcal{L}\mathcal{P}\Psi_{\rm tot}
++
+\mathcal{P}\mathcal{L}(1-\mathcal{P})\Psi_{\rm tot}.
+\end{equation}
+
+The second term represents the influence of the hidden causal sector on the observable dynamics. Since \(\Psi_{\rm hid}\) is not directly resolved within the observational window, its effect appears as a nonlocal memory contribution.
+
+Formally, this can be written as
+\begin{equation}
+\frac{d\Psi_{\rm obs}}{dt}
+=
+\mathcal{L}_{\rm eff}\Psi_{\rm obs}(t)
++
+\int_{-\infty}^{t}
+K(t,t')\Psi_{\rm obs}(t')\,dt',
+\end{equation}
+where \(K(t,t')\) is an effective memory kernel induced by the eliminated hidden sector.
+
+Thus, in the SBC framework, memory is not introduced as an independent assumption. It emerges from the finite observational projection:
+\begin{equation}
+{\rm finite\ observational\ window}
+\quad
+\Longrightarrow
+\quad
+{\rm incomplete\ state\ description}
+\quad
+\Longrightarrow
+\quad
+{\rm effective\ memory}.
+\end{equation}
+
+When the hidden-sector influence is stable and progressively screened, the leading memory kernel is expected to take an exponentially damped form,
+\begin{equation}
+K(t,t')
+\propto
+\exp[-\lambda(t-t')]\Theta(t-t').
+\end{equation}
+
+This provides the theoretical bridge between the foundational SBC postulate of finite observational access and the phenomenological SBC/F3 infrared response.

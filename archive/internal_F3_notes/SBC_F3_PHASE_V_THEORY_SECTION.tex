@@ -1,0 +1,407 @@
+\section{Theoretical Origin of the SBC/F3 Infrared Sector}
+
+\subsection{Finite Observational Projection and Emergent Memory}
+
+A central premise of the SBC framework is that the observable universe does not necessarily coincide with the total causal structure of physical reality.
+
+Let \(\Psi_{\rm tot}(t)\) denote the state of the full causal structure, and let the observable cosmological state be defined as a projection,
+\begin{equation}
+\Psi_{\rm obs}(t)
+=
+\mathcal{P}\Psi_{\rm tot}(t),
+\end{equation}
+where \(\mathcal{P}\) is an observational projection operator associated with a finite observational window.
+
+The complementary, unobserved sector is
+\begin{equation}
+\Psi_{\rm hid}(t)
+=
+(1-\mathcal{P})\Psi_{\rm tot}(t).
+\end{equation}
+
+If the total state evolves locally in the full causal space,
+\begin{equation}
+\frac{d\Psi_{\rm tot}}{dt}
+=
+\mathcal{L}\Psi_{\rm tot},
+\end{equation}
+then projection onto the observable sector yields an effective equation of the form
+\begin{equation}
+\frac{d\Psi_{\rm obs}}{dt}
+=
+\mathcal{P}\mathcal{L}\mathcal{P}\Psi_{\rm tot}
++
+\mathcal{P}\mathcal{L}(1-\mathcal{P})\Psi_{\rm tot}.
+\end{equation}
+
+The second term represents the influence of the hidden causal sector on the observable dynamics. Since \(\Psi_{\rm hid}\) is not directly resolved within the observational window, its effect appears as a nonlocal memory contribution.
+
+Formally, this can be written as
+\begin{equation}
+\frac{d\Psi_{\rm obs}}{dt}
+=
+\mathcal{L}_{\rm eff}\Psi_{\rm obs}(t)
++
+\int_{-\infty}^{t}
+K(t,t')\Psi_{\rm obs}(t')\,dt',
+\end{equation}
+where \(K(t,t')\) is an effective memory kernel induced by the eliminated hidden sector.
+
+Thus, in the SBC framework, memory is not introduced as an independent assumption. It emerges from the finite observational projection:
+\begin{equation}
+{\rm finite\ observational\ window}
+\quad
+\Longrightarrow
+\quad
+{\rm incomplete\ state\ description}
+\quad
+\Longrightarrow
+\quad
+{\rm effective\ memory}.
+\end{equation}
+
+When the hidden-sector influence is stable and progressively screened, the leading memory kernel is expected to take an exponentially damped form,
+\begin{equation}
+K(t,t')
+\propto
+\exp[-\lambda(t-t')]\Theta(t-t').
+\end{equation}
+
+This provides the theoretical bridge between the foundational SBC postulate of finite observational access and the phenomenological SBC/F3 infrared response.
+
+\subsection{Observable and Hidden Causal Sectors}
+
+The SBC framework assumes that the total causal structure can be decomposed into an observable sector and a hidden sector,
+\begin{equation}
+\Psi_{\rm tot}
+=
+\Psi_{\rm obs}
++
+\Psi_{\rm hid}.
+\end{equation}
+
+The observable component is obtained through a projection operator,
+\begin{equation}
+\Psi_{\rm obs}
+=
+\mathcal P \Psi_{\rm tot},
+\end{equation}
+while the hidden component is
+\begin{equation}
+\Psi_{\rm hid}
+=
+(1-\mathcal P)\Psi_{\rm tot}.
+\end{equation}
+
+The projection operator satisfies
+\begin{equation}
+\mathcal P^2=\mathcal P,
+\end{equation}
+which defines a consistent separation between accessible and inaccessible causal sectors.
+
+The total state is assumed to evolve according to
+\begin{equation}
+\frac{d\Psi_{\rm tot}}{dt}
+=
+\mathcal L \Psi_{\rm tot},
+\end{equation}
+where \(\mathcal L\) is the generator of the underlying causal evolution.
+
+Projecting the total dynamics onto the observable and hidden sectors yields
+\begin{equation}
+\frac{d\Psi_{\rm obs}}{dt}
+=
+\mathcal L_{oo}\Psi_{\rm obs}
++
+\mathcal L_{oh}\Psi_{\rm hid},
+\end{equation}
+and
+\begin{equation}
+\frac{d\Psi_{\rm hid}}{dt}
+=
+\mathcal L_{ho}\Psi_{\rm obs}
++
+\mathcal L_{hh}\Psi_{\rm hid}.
+\end{equation}
+
+Here,
+\begin{equation}
+\mathcal L_{oo}
+=
+\mathcal P\mathcal L\mathcal P,
+\end{equation}
+\begin{equation}
+\mathcal L_{oh}
+=
+\mathcal P\mathcal L(1-\mathcal P),
+\end{equation}
+\begin{equation}
+\mathcal L_{ho}
+=
+(1-\mathcal P)\mathcal L\mathcal P,
+\end{equation}
+and
+\begin{equation}
+\mathcal L_{hh}
+=
+(1-\mathcal P)\mathcal L(1-\mathcal P).
+\end{equation}
+
+The hidden sector acts as a reservoir of causal information that is not directly resolved within the observable window.
+
+Solving formally for \(\Psi_{\rm hid}\) and substituting it back into the observable-sector equation generates an effective nonlocal equation,
+\begin{equation}
+\frac{d\Psi_{\rm obs}}{dt}
+=
+\mathcal L_{\rm eff}\Psi_{\rm obs}
++
+\int_{-\infty}^{t}
+K(t,t')
+\Psi_{\rm obs}(t')
+\,dt'.
+\end{equation}
+
+The memory kernel \(K(t,t')\) is therefore not introduced as an independent postulate. It emerges from eliminating the hidden causal sector.
+
+This gives the fundamental SBC hierarchy:
+\begin{equation}
+{\rm total\ causal\ structure}
+\rightarrow
+{\rm causal\ projection}
+\rightarrow
+{\rm hidden\ sector}
+\rightarrow
+{\rm memory\ kernel}
+\rightarrow
+{\rm infrared\ phenomenology}.
+\end{equation}
+
+The SBC/F3 sector can therefore be interpreted as the cosmological infrared limit of an observable-hidden causal decomposition.
+
+\subsection{Toward a Fundamental SBC Memory Equation}
+
+The observationally preferred SBC/F3 sector suggests that the effective infrared deformation may arise from a deeper memory dynamics.
+
+Let \(\Psi(t)\) denote the effective observable cosmological state within a finite observational window. In the SBC framework, the observed state is not assumed to be fully local in time, but may depend on a causal memory functional,
+\begin{equation}
+\mathcal{M}(t)
+=
+\int_{-\infty}^{t}
+K(t,t')\,\Psi(t')\,dt',
+\end{equation}
+where \(K(t,t')\) is a causal memory kernel.
+
+Causality requires
+\begin{equation}
+K(t,t')=0
+\qquad
+{\rm for}
+\qquad
+t'>t .
+\end{equation}
+
+A stable memory sector must also satisfy finite normalization,
+\begin{equation}
+\int_{-\infty}^{t}
+|K(t,t')|\,dt'
+<\infty ,
+\end{equation}
+ensuring that remote past states do not generate divergent contributions.
+
+The simplest kernel satisfying causality, normalization, and monotonic memory loss is
+\begin{equation}
+K(t,t')
+=
+K_0
+\exp[-\lambda(t-t')]
+\Theta(t-t'),
+\end{equation}
+where \(\Theta\) is the Heaviside causal step function.
+
+This kernel obeys the first-order memory-decay equation
+\begin{equation}
+\frac{\partial K}{\partial t}
+=
+-\lambda K .
+\end{equation}
+
+Consequently, the effective memory amplitude satisfies
+\begin{equation}
+\frac{d\mathcal{M}}{dt}
+=
+-\lambda \mathcal{M}
++
+\mathcal{S}(t),
+\end{equation}
+where \(\mathcal{S}(t)\) is a source term associated with the instantaneous perturbative state.
+
+In the infrared regime, where \(\mathcal{S}(t)\) varies slowly compared with the memory-decay scale, the homogeneous solution dominates the leading screened response:
+\begin{equation}
+\mathcal{M}(t)
+\propto
+e^{-\lambda t}.
+\end{equation}
+
+Mapping the causal depth to a cosmological redshift variable gives an effective response of the form
+\begin{equation}
+F_{\rm SBC}(z)
+\simeq
+-\epsilon
+\exp[-k_0(1+z)].
+\end{equation}
+
+This corresponds to the leading-order SBC/F3 phenomenological branch with
+\begin{equation}
+n\simeq 1.
+\end{equation}
+
+Thus, the empirical preference for \(n\simeq 1\) can be interpreted as the observational imprint of a first-order causal memory kernel.
+
+The more general phenomenological form
+\begin{equation}
+F_{\rm SBC}(z)
+=
+-\epsilon
+\exp\left[-(k_0(1+z))^n\right]
+\end{equation}
+may then be understood as a generalized memory-decay law, where deviations from \(n=1\) encode departures from the minimal first-order kernel.
+
+The observational result \(n\simeq1\) therefore selects the simplest stable SBC memory regime.
+
+\subsection{Kernel Selection by Stability and Causal Normalization}
+
+The emergence of an exponentially screened memory kernel can be motivated from minimal physical requirements.
+
+Let the memory kernel depend on the causal separation
+\begin{equation}
+\Delta t = t-t',
+\qquad
+\Delta t \geq 0 .
+\end{equation}
+
+Causality requires
+\begin{equation}
+K(\Delta t)=0
+\qquad
+{\rm for}
+\qquad
+\Delta t<0 .
+\end{equation}
+
+Finite memory requires the normalization condition
+\begin{equation}
+\int_0^\infty K(\Delta t)\,d\Delta t < \infty .
+\end{equation}
+
+Stability requires that the influence of remote past states decreases monotonically,
+\begin{equation}
+\frac{dK}{d\Delta t}<0 .
+\end{equation}
+
+The simplest first-order stable decay law satisfying these conditions is
+\begin{equation}
+\frac{dK}{d\Delta t}
+=
+-\lambda K,
+\qquad
+\lambda>0 .
+\end{equation}
+
+Its solution is
+\begin{equation}
+K(\Delta t)
+=
+K_0 e^{-\lambda \Delta t}.
+\end{equation}
+
+Including causal support explicitly gives
+\begin{equation}
+K(t,t')
+=
+K_0 e^{-\lambda(t-t')}
+\Theta(t-t') .
+\end{equation}
+
+Thus, the exponential kernel is not an arbitrary choice. It is the minimal causal, normalizable and stable memory response.
+
+When mapped to cosmological redshift or causal-depth variables, this kernel generates the leading SBC/F3 infrared correction
+\begin{equation}
+F_{\rm SBC}(z)
+\simeq
+-\epsilon e^{-k_0(1+z)} .
+\end{equation}
+
+This corresponds to the phenomenological SBC/F3 form
+\begin{equation}
+F_{\rm SBC}(z)
+=
+-\epsilon
+\exp\left[-(k_0(1+z))^n\right]
+\end{equation}
+with
+\begin{equation}
+n\simeq 1 .
+\end{equation}
+
+Therefore, the observational preference for \(n\simeq1\) can be interpreted as the signature of the minimal stable causal-memory regime.
+
+\subsection{Exponential Memory Decay and the Origin of the IR-Safe Sector}
+
+The repeated emergence of \(n\simeq 1\) in the observationally viable SBC/F3 region suggests that the infrared correction may originate from a first-order memory-decay process.
+
+Let \(M(\tau)\) denote an effective cosmological memory amplitude, where \(\tau\) parametrizes the causal depth or accumulated observational scale. The simplest stable decay law is
+
+\begin{equation}
+\frac{dM}{d\tau}=-\lambda M,
+\end{equation}
+
+with solution
+
+\begin{equation}
+M(\tau)=M_0 e^{-\lambda \tau}.
+\end{equation}
+
+If the relevant infrared causal depth scales approximately as
+
+\begin{equation}
+\tau \propto (1+z),
+\end{equation}
+
+then the effective SBC/F3 response becomes
+
+\begin{equation}
+F_{\rm SBC}(z)
+\simeq
+-\epsilon \exp[-k_0(1+z)].
+\end{equation}
+
+This is the leading-order case of the phenomenological form
+
+\begin{equation}
+F_{\rm SBC}(z)
+=
+-\epsilon
+\exp\left[-\left(k_0(1+z)\right)^n\right],
+\end{equation}
+
+with
+
+\begin{equation}
+n\simeq 1.
+\end{equation}
+
+Thus, the observational preference for \(n\simeq 1\) can be interpreted as the signature of a first-order exponentially screened memory response.
+
+In this interpretation, \(\epsilon\) measures the amplitude of the effective memory imprint, while \(k_0\) controls the infrared screening scale. The preferred region,
+
+\begin{equation}
+\epsilon\simeq 0.06,
+\qquad
+k_0\simeq 0.015-0.022,
+\qquad
+n\simeq 1,
+\end{equation}
+
+corresponds to a weak, slowly decaying, large-scale memory sector.
+
+This provides a physical rationale for why the SBC/F3 deformation is observationally viable: it is sufficiently weak to preserve the \(\Lambda\)CDM background and high-\(\ell\) acoustic structure, while remaining large enough to generate controlled infrared perturbative effects.

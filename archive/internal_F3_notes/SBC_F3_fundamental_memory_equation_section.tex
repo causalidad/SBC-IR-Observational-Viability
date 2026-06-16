@@ -1,0 +1,89 @@
+\subsection{Toward a Fundamental SBC Memory Equation}
+
+The observationally preferred SBC/F3 sector suggests that the effective infrared deformation may arise from a deeper memory dynamics.
+
+Let \(\Psi(t)\) denote the effective observable cosmological state within a finite observational window. In the SBC framework, the observed state is not assumed to be fully local in time, but may depend on a causal memory functional,
+\begin{equation}
+\mathcal{M}(t)
+=
+\int_{-\infty}^{t}
+K(t,t')\,\Psi(t')\,dt',
+\end{equation}
+where \(K(t,t')\) is a causal memory kernel.
+
+Causality requires
+\begin{equation}
+K(t,t')=0
+\qquad
+{\rm for}
+\qquad
+t'>t .
+\end{equation}
+
+A stable memory sector must also satisfy finite normalization,
+\begin{equation}
+\int_{-\infty}^{t}
+|K(t,t')|\,dt'
+<\infty ,
+\end{equation}
+ensuring that remote past states do not generate divergent contributions.
+
+The simplest kernel satisfying causality, normalization, and monotonic memory loss is
+\begin{equation}
+K(t,t')
+=
+K_0
+\exp[-\lambda(t-t')]
+\Theta(t-t'),
+\end{equation}
+where \(\Theta\) is the Heaviside causal step function.
+
+This kernel obeys the first-order memory-decay equation
+\begin{equation}
+\frac{\partial K}{\partial t}
+=
+-\lambda K .
+\end{equation}
+
+Consequently, the effective memory amplitude satisfies
+\begin{equation}
+\frac{d\mathcal{M}}{dt}
+=
+-\lambda \mathcal{M}
++
+\mathcal{S}(t),
+\end{equation}
+where \(\mathcal{S}(t)\) is a source term associated with the instantaneous perturbative state.
+
+In the infrared regime, where \(\mathcal{S}(t)\) varies slowly compared with the memory-decay scale, the homogeneous solution dominates the leading screened response:
+\begin{equation}
+\mathcal{M}(t)
+\propto
+e^{-\lambda t}.
+\end{equation}
+
+Mapping the causal depth to a cosmological redshift variable gives an effective response of the form
+\begin{equation}
+F_{\rm SBC}(z)
+\simeq
+-\epsilon
+\exp[-k_0(1+z)].
+\end{equation}
+
+This corresponds to the leading-order SBC/F3 phenomenological branch with
+\begin{equation}
+n\simeq 1.
+\end{equation}
+
+Thus, the empirical preference for \(n\simeq 1\) can be interpreted as the observational imprint of a first-order causal memory kernel.
+
+The more general phenomenological form
+\begin{equation}
+F_{\rm SBC}(z)
+=
+-\epsilon
+\exp\left[-(k_0(1+z))^n\right]
+\end{equation}
+may then be understood as a generalized memory-decay law, where deviations from \(n=1\) encode departures from the minimal first-order kernel.
+
+The observational result \(n\simeq1\) therefore selects the simplest stable SBC memory regime.

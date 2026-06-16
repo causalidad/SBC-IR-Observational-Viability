@@ -1,0 +1,23 @@
+IR Perturbative Sector EMCEE SUMMARY
+
+           epsilon           k0            n     log_prob
+count  7040.000000  7040.000000  7040.000000  7040.000000
+mean      0.072194     0.024710     0.599667    -2.167560
+std       0.011216     0.006564     0.284041     0.739979
+min       0.060008     0.015001     0.000492    -8.075484
+25%       0.062960     0.019061     0.378571    -2.476117
+50%       0.068985     0.023872     0.658078    -1.922206
+75%       0.078209     0.029450     0.834662    -1.625202
+max       0.118612     0.039965     0.999672    -1.363254
+
+BEST POSTERIOR POINT v2:
+epsilon     0.060080
+k0          0.016750
+n           0.995721
+log_prob   -1.363254
+Name: 6065, dtype: float64
+
+INTERPRETATION:
+The posterior favors small epsilon, low k0, and high n.
+This suggests an IR-safe, weak, scale-dependent infrared-sector correction.
+The result supports a structured EFT-like modified-gravity phenomenology.
