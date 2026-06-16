@@ -60,3 +60,11 @@ The results establish observational viability of the adopted effective infrared 
 
 Can projection-based causal-memory constructions, such as those motivated by Mori--Zwanzig approaches, naturally reproduce the observationally viable infrared regime identified here?
 
+Citation and Archive
+
+The reproducibility repository associated with this work is publicly available on GitHub and permanently archived on Zenodo.
+
+Zenodo DOI: 10.5281/zenodo.20720308
+
+This DOI corresponds to the archived release of the observational benchmark, including scripts, MCMC chains, figures, reports, and reproducibility materials used in the analysis.
+
